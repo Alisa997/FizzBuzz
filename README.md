@@ -328,7 +328,7 @@ the file. Then click the commit button to commit the change to the repository.
 
 This change has now been made on GitHub, but your local copy doesn't know about the change yet.
 
-- [ ] In IntelliJ, you can either click the `Git` menu and choose `Pull...`,
+- [X] In IntelliJ, you can either click the `Git` menu and choose `Pull...`,
 or you can run `git pull` from the Terminal tab. Once you have done the pull, you should see the commit show up in
 your local repository.
 
@@ -345,7 +345,7 @@ on MarkUs to get practice with running the self tests on MarkUs.
 
 ## Task 4: Multiples of 3 and 5
 
-- [ ] Right-click on `lab1` and select `New —> Java Class`. Name it `Multiples`.
+- [X] Right-click on `lab1` and select `New —> Java Class`. Name it `Multiples`.
 
 We're looking for integers greater than 0 that are multiples of 3 or 5. The first four are 3, 5, 6, and 9, so there are
 four below 10. How many are below 1000?
@@ -375,19 +375,19 @@ System.out.println(count);
 > In order to later test the `multiples` method, we will need to change the access modifier on your
 > extracted method. To do this, you can remove the `private` keyword.
 
-- [ ] Right-click the first line and choose `Refactor->Inline Variable` to
+- [X] Right-click the first line and choose `Refactor->Inline Variable` to
   further simplify the method body to just one line of code.
 
 > Something to think about: is code _more_ or _less_ readable when we inline variables in this way?
 
-- [ ] Modify the `multiples` method so that it takes **three** parameters:
+- [X] Modify the `multiples` method so that it takes **three** parameters:
     - an integer `n`,
     - an integer `a`,
     - an integer `b`.
 
 These will all be positive integers.
 
-- [ ] Generalize the code so that it uses:
+- [X] Generalize the code so that it uses:
     - `n` in place of where 1000 was previously used
     - `a` where 3 was used
     - `b` where 5 was used.
@@ -405,9 +405,9 @@ and then `Add Junit 5.8.1 to classpath`. Then you should be able to run the test
 After you have run the tests once, you may see a play button appear beside `MultiplesTest`
 in this file. You can then click that to conveniently rerun the tests.
 
-- [ ] Make sure the tests all pass in the file.
+- [X] Make sure the tests all pass in the file.
 
-- [ ] If you didn't yet, also `add`, `commit`, and `push` this `Multiples.java` file to save your work
+- [X] If you didn't yet, also `add`, `commit`, and `push` this `Multiples.java` file to save your work
   and upload it to your GitHub repo.
 
 Once the tests are passing and your work is on GitHub, you are ready to submit your code to MarkUs!
