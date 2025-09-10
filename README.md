@@ -417,7 +417,7 @@ simply submit the URL that can be used to clone your GitHub repo.
 Given that URL, we can then clone your repo and get our own copy of
 your code to run the tests on.
 
-- [ ] Submit your code to MarkUs
+- [X] Submit your code to MarkUs
   - copy the URL from GitHub that you used to clone **your fork of the FizzBuzz repo**.
   - log into MarkUs and go to the `week1git` assignment.
   - submit the URL by pasting the URL into the submission box; do not change anything.
@@ -459,7 +459,7 @@ def multiples(n: int = 1000, a: int = 3, b: int = 5) -> int:
 Once you complete these steps, you can copy the `MultiplesDefaultTest.java` file into the `test/lab1` directory
 and run the tests in it to check your work — debugging as needed.
 
-- [ ] Use git to push your updated `Multiples.java` file to GitHub and run the self tests again on MarkUs.
+- [X] Use git to push your updated `Multiples.java` file to GitHub and run the self tests again on MarkUs.
 
 > Since MarkUs already has your GitHub URL, you don't need to "resubmit" that; you can just rerun the self
 > tests on MarkUs, and it will clone a copy of your most recent code from GitHub. Neat!
@@ -472,7 +472,7 @@ but the above was the core activity for this week.
 
 ## Checking your logs
 
-- [ ] Check with your team to see how many commits you each made during the lab in your FizzBuzz repo.
+- [X] Check with your team to see how many commits you each made during the lab in your FizzBuzz repo.
   You can view the log of commits on GitHub or use the `git log` command to view a summary of the commits to the repository.
 
 ## Bonus: Collaboration with git (only if you have time)
@@ -519,7 +519,7 @@ this later, as well as other features of git which can help you avoid conflicts.
 
 Here is one more small coding problem similar to the Multiples problem for extra practice.
 
-- [ ] Right-click on `lab1` and select `New —> Java Class`. Name it `Reduce`.
+- [X] Right-click on `lab1` and select `New —> Java Class`. Name it `Reduce`.
 
 Starting with a number n, if n is even divide it by 2. If n is odd, subtract 1. Repeat.
 
@@ -527,16 +527,16 @@ For example, if you start with n = 2, the answer is 2.
 
 > Details: 2 (even, divide by 2) --> 1 (odd, subtract 1) --> 0.
 
-- [ ] In `Reduce.java`, write a main method that prints how many steps it takes to reach 0 if you start at 100.
+- [X] In `Reduce.java`, write a main method that prints how many steps it takes to reach 0 if you start at 100.
   Add this file to your project, commit, and push.
 
-- [ ] Similar to what you did for `Multiples.java`, modify the code so that you can easily test it by extracting
+- [X] Similar to what you did for `Multiples.java`, modify the code so that you can easily test it by extracting
 a helper method called `reduce`. Then generalize that helper to take in `n` as a parameter.
 
 Once you complete these steps, you can copy the `ReduceTest.java` file into the `test/lab1` directory
 and run the tests — debugging as needed.
 
-- [ ] Finally, `add`, `commit`, and `push` your `Reduce.java` — then rerun the self tests on MarkUs.
+- [X] Finally, `add`, `commit`, and `push` your `Reduce.java` — then rerun the self tests on MarkUs.
 
 ## Further practice
 
